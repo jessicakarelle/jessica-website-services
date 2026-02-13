@@ -1,7 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from '../components/common/Navbar';
-import Footer from '../components/common/Footer';
+import Navbar from '../components/common/Navbar'; // Vérifie bien ce chemin !
+import Footer from '../components/common/Footer'; // Vérifie bien ce chemin !
 import Home from '../pages/Home';
+import Services from '../pages/Services';
+import Contact from '../pages/Contact';   
+
 
 const Router = () => {
   return (
@@ -10,8 +13,6 @@ const Router = () => {
      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
     </Routes>
       <Footer />

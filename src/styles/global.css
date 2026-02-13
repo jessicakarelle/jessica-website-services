@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap');
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+:root {
+ --bg-primary-color: #FFFFFF;
+ --bg-secondary-color: #F7F5F2;
+ --bg-accent-color: #F4EDE3;
+ --text-primary-color: #333333;
+ --text-secondary-color: #666666;
+ --accent-primary-color: #8B5E3C;
+ --border-color: #E3E2DF;
+}
+body {
+ font-family: 'Inter', sans-serif;
+ color: var(--text-primary-color);
+ background: var(--bg-primary-color);
+ line-height: 1.6;
+}
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Playfair Display', serif;
+ line-height: 1.2;
+ color: var(--text-primary-color);
+}
+a {
+ text-decoration: none;
+ color: inherit;
+}
