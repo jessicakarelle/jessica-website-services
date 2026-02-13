@@ -1,0 +1,29 @@
+.btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.btn-primary {
+  background: var(--accent-primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(139, 94, 60, 0.3);
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid var(--accent-primary-color);
+  color: var(--accent-primary-color);
+}
+
+.btn-secondary:hover {
+  background: var(--accent-primary-color);
+  color: white;
+}
